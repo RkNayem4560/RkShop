@@ -14,3 +14,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: call me rk
 - ⚡ Fun fact: i am very freeminded mab
 -->
+shop.html

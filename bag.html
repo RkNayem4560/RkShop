@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SHOP</title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel="stylesheet" href="include.css"  >
+</head>
+<body>
+<header>
+<span id="scroll" class="scroll" ></span>
+<nav class="shoplogo" style="background:rgb(160,110,10); z-index:1000;" >
+<h1>Shop.</h1>
+<ul class="nav" style="text-shadow:0.6px 0px black;" >
+<li><a href="shop.html" class="scroll-link" style="cursor:none;text-decoration:none;" >home</a></li>
+<li>Catagories</li>
+<li>men</li>
+<li>women</li>
+<li>others</li>
+<span class="cart" >🎟</span><a class="bag" href="bag.html" >💼<sup class="countbag" >0</sup></a></span>
+</ul><input type="search" placeholder="     search"  class="search-product" >
+</nav>
+</header>
+<br><br><br>
+<div class="place" >
+Do you place this order<span class="animate" >?</span><br>
+<button class="yesbtn" ><a href="placeorder.html" style="text-decoration:none;color:rgb(30,90,80);" >yes</a></button><button class="nobtn" onclick="No()">no</button>
+</div>
+<div class="summary" >
+
+</div>
+<div class="bag-container" >
+</div>
+<script src="shop.js"></script>
+<script src="bag.js"></script>
+<script type="text/javascript">
+let place=document.querySelector(".place");
+function placeitem(){
+
+place.style.display="block";
+}
+function No(){
+place.style.display="none";
+}
+</script>
+</body>
+</html>
+<style type="text/css">
+.details{line-height:1.6em;font-size:12px;padding-top:3px;padding-left:9px;top:8px;left:82px;position:absolute;height:128px;
+font-style:italic;font-weight:602;font-family:monospace;border:0;width:67%;}
+.bag-items{position:relative;bottom:10px;margin-left:3px;height:204px;box-shadow:0px 0px 3px gray;background:rgb(220,220,230);width:67%;margin-top:10px;}
+.cash-counter{line-height:1.4em;padding-left:4px;left:249px;position:fixed;height:150px;border-radius:2px;box-shadow:0px 0px 5px gray;border:0;width:30%;}
+.product-bio{padding-top:1.6px;padding-left:3px;height:72px;bottom:5px;position:relative;border:0;width:100%;}
+.details.priceMRP{margin-top:15px;}
+.details.name{margin-top:15px;}
+.orginial-price{text-decoration:line-through;}
+.product-bio{padding-top:5px;font-size:10px;font-family:times;}
+.cross{cursor:pointer;padding-left:4px;width:20px;background:rgba(20,80,40,0.1);text-shadow:1px 0px 3px gray;left:221px;position:absolute;}
+.cross:active{color:lightgray;}
+.current-MRP{font-size:8px; font-weight:605;}
+.discount-MRP{font-size:7px; letter-spacing:-0.4px;font-weight:605;}
+.fee{font-size:8px; font-weight:605;}
+.place-order-btn{cursor:pointer;box-shadow:0px 0px 2px black;border-radius:0px 0px 1px 1px;padding-bottom:2px;font-size:9px;width:100%;height:17px;border:0;background:rgb(200,10,100);position:absolute;text-shadow:0.6px 0px #fff;color:#fff;bottom:0px;right:0;}
+.total-MRP{font-size:8px; top:4px; position:relative;text-shadow:0.5px 0px gray;}
+.place-order-btn:active{box-shadow:none;}
+.place{display:none;overflow:hidden;z-index:1000;position:fixed;box-shadow:0px 0px 5px gray;top:200px;left:71px;
+color:#fff;text-shadow:0.7px 0px black;font-family:monospace; font-size:22px;border-radius:2px;height:120px;background:rgba(40,60,80,0.4);width:220px;padding-top:16px;padding-left:15px;}
+.yesbtn{overflow:hidden;padding:4px;cursor:pointer;border:0;border-radius:2px;color:rgb(30,90,80);background:rgba(30,80,50,0.2);position:relative;top:7px;}
+.nobtn{overflow:hidden;padding:4px;cursor:pointer;border:0;position:relative;top:7px; color:red;border-radius:2px; background:rgba(30,80,50,0.2);left:8px;}
+.yesbtn:active{color:gray;}
+.nobtn:active{color:gray;}
+.animate{animation:animate 0.5s linear infinite;}
+@keyframes animate{
+50%{color:red; text-shadow:0.5px 0px 3px red;}
+}
+</style>

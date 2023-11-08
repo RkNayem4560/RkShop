@@ -1,0 +1,57 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+.scroll{position:absolute;top:0px;}
+.shoplogo{box-shadow:0px 0px 3px gray;position:fixed;top:0px;height:50px;background:rgb(160,110,10);z-index:1000;width:100%;}
+h1{cursor:pointer;text-shadow:0.6px 0px aqua;border-radius:5px;position:absolute;
+left:5px;top:14px;background:#fff;width:8%;height:18px;font-size:12px;font-family:cursive;}
+.shoplogo .nav{margin-left:42px;display:flex;list-style-type:none;}
+.nav li{color:#fff;text-shadow:0.6 0px black;margin-top:1.6px;font-weight:700;font-size:12px;padding:15px 8px 18px 6px;}
+li:hover{border-bottom:1.5px solid red;}
+.scroll-link{color:#fff;}
+
+.cart{position:relative;left:7px;top:12px;}
+.bag{cursor:pointer;height:8px;margin-left:11px;position:relative;top:10px;}
+.countbag{width:auto;border-radius:8px;font-size:7px;position:relative;left:-1px;color:aqua;height:1px;background:red;}
+.search-product{border-radius:3px;text-align:center;border:0;background:#fff;left:302px;top:34px;position:absolute;
+font-size:9px;width:16%;height:12px;float:right;}
+.products-container{margin-bottom:8px;flex-wrap:wrap;margin-top:-10px;display:flex;}
+.item-img{box-shadow:0px 0px 5px gray;border-radius:2px;height:174px;width:100%;}
+.product{margin-left:20px;margin-top:25px;height:280px;width:150px;}
+.company{margin-top:5px;font-weight:700;text-transform:uppercase;}
+.item-name{font-family:times;color:gray;font-style:italic;}
+.current-prize{font-size:11px;}
+.price{font-size:11px;text-decoration:line-through;}
+.discount{font-size:11.5px; font-weight:700;color:orange;}
+.bagbtn{cursor:pointer;box-shadow:0px 0px 3px gray;border:0;border-radius:5px;background:limegreen;width:100%;padding:3px 3px;}
+.bagbtn:active{color:gray;box-shadow:none;background:lightgreen;}
+.wacth{font-size:10px;}
+.quality{color:black;}
+footer{font-family:fantasy;font-style:italic;text-shadow:0.3px 0px 1.4px teal;line-height:2.5em;padding:12px;height:300px;background:rgb(30,50,60);width:100%;}
+.weblink{font-family:monospace; color:lightblue;}
+.weblink:hover{color:violet;}
+/*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+.scroll{position:absolute;top:0px;}
+.shoplogo{box-shadow:0px 0px 3px gray;position:fixed;top:0px;height:50px;background:rgb(160,110,10);width:100%;}
+h1{cursor:pointer;text-shadow:0.6px 0px aqua;border-radius:5px;position:absolute;
+left:5px;top:14px;background:#fff;width:8%;height:18px;font-size:12px;font-family:cursive;}
+.shoplogo .nav{margin-left:42px;display:flex;list-style-type:none;}
+.nav li{margin-top:1.6px;font-weight:700;font-size:12px;padding:15px 8px 18px 6px;}
+li:hover{border-bottom:1.5px solid red;}
+.cart{position:relative;left:7px;top:12px;}
+.bag{cursor:pointer;height:8px;margin-left:11px;position:relative;top:10px;}
+.countbag{width:auto;border-radius:8px;font-size:7px;position:relative;left:-1px;color:aqua;height:1px;background:red;}
+.search-product{border-radius:3px;text-align:center;border:0;background:#fff;left:302px;top:34px;position:absolute;
+font-size:9px;width:16%;height:12px;float:right;}
+.products-container{margin-bottom:8px;flex-wrap:wrap;margin-top:45px;display:flex;}
+.item-img{box-shadow:0px 0px 3px gray;border-radius:2px;height:174px;width:100%;}
+.product{margin-left:20px;margin-top:25px;height:280px;width:150px;}
+.company{margin-top:5px;font-weight:700;text-transform:uppercase;}
+.item-name{font-family:times;color:gray;font-style:italic;}
+.current-prize{font-size:11px;}
+.price{font-size:11px;text-decoration:line-through;}
+.discount{font-size:11.5px; font-weight:700;color:orange;}
+.bagbtn{cursor:pointer;box-shadow:0px 0px 3px gray;border:0;border-radius:5px;background:limegreen;width:100%;padding:3px 3px;}
+.bagbtn:active{color:gray;box-shadow:none;background:lightgreen;}
+.wacth{font-size:10px;}
+.quality{color:black;}*/

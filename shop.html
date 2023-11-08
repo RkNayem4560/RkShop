@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RKSHOP</title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+
+<header>
+<span id="scroll" class="scroll" ></span>
+<nav class="shoplogo">
+<h1>RkShop.</h1>
+<ul class="nav" >
+<li><a class="scroll-link"  href="#scroll" style="cursor:none;text-decoration:none;" >home</a></li>
+<li>Catagories</li>
+<li>men</li>
+<li>women</li>
+<li>others</li>
+<span class="cart" >🎟</span><a class="bag" href="bag.html" >💼<sup class="countbag" >0</sup></a></span>
+</ul><input type="search" placeholder="     search"  class="search-product" >
+</nav>
+</header>
+<main>
+<br><br><br>
+<div class="showing-product" >
+
+<img src="itemc5.jpg" height="100%" class="showproduct-img"  >
+<img src="itemc7.jpg" height="100%"  class="showproduct-img" >
+<img src="item11.jpg" height="100%"  class="showproduct-img" >
+<img src="item15.jpg" height="100%"  class="showproduct-img" >
+<img src="item9.jpg" height="100%"  class="showproduct-img" >
+<img src="item29.jpg" height="100%" class="showproduct-img"  >
+<img src="item18.jpg" height="100%"  class="showproduct-img" >
+<img src="item21.jpg" height="100%"  class="showproduct-img" >
+<img src="item13.jpg" height="100%"  class="showproduct-img" >
+<img src="item19.jpg" height="100%"  class="showproduct-img" >
+
+</div>
+<div class="products-container" id="hii" >
+
+</div><br>
+</main>
+<footer>
+<span style="font-size:22px; line-height:2em;" >Contact : 0188052298</span><br>
+<span style="font-size:18px;" >Gmail : <b style="color:navy;" >RKNAYEM4560@gmail.com</b></span>
+<span style="font-size:21px;" >Facebook : <a href="https://www.facebook.com/mdnoune.khan.75"  style="color:black;font-size:9.5px;position:relative;bottom:2px; text-shadow:1px 0px #fff; text-decoration:none;" >https://www.facebook.com/mdnoune.khan.75</a></span><br>
+<a href="#" class="weblink" style="font-size:22px;" >https// : www.RKSHOP.bd</a><br>
+<p></p>
+<span class="by" style="font-size:18px;" >@ Powered by RK Nayem</span><img>
+</footer>
+<script type="text/javascript">
+function bagsound(){
+let clicks=document.querySelector("#click");
+clicks.play();
+}
+</script>
+<script src="shop.js"></script>
+<script src="items.js"></script>
+</body>
+</html>
+<style type="text/css">
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+.scroll{position:absolute;top:0px;}
+.shoplogo{box-shadow:0px 0px 3px gray;position:fixed;top:0px;height:50px;background:rgb(160,110,10);z-index:1000;width:100%;}
+h1{cursor:pointer;text-shadow:0.6px 0px aqua;border-radius:5px;position:absolute;
+left:5px;top:14px;background:#fff;width:8%;height:18px;font-size:8.5px;font-family:cursive;padding-top:3px;}
+.shoplogo .nav{margin-left:42px;display:flex;list-style-type:none;}
+.nav li{color:#fff;text-shadow:0.6px 0px black;margin-top:1.6px;font-weight:700;font-size:12px;padding:15px 8px 18px 6px;}
+li:hover{color:blak;border-bottom:1.5px solid red;}
+.scroll-link{color:#fff;}
+
+.cart{position:relative;left:7px;top:12px;}
+.bag{cursor:pointer;height:8px;margin-left:11px;position:relative;top:10px;}
+.countbag{width:auto;border-radius:8px;font-size:7px;position:relative;left:-1px;color:aqua;height:1px;background:red;}
+.search-product{border-radius:3px;text-align:center;border:0;background:#fff;left:302px;top:34px;position:absolute;
+font-size:9px;width:16%;height:12px;float:right;}
+.products-container{margin-bottom:8px;flex-wrap:wrap;margin-top:-10px;display:flex;}
+.item-img{box-shadow:0px 0px 5px gray;border-radius:2px;height:174px;width:100%;}
+.product{margin-left:20px;margin-top:25px;height:280px;width:150px;}
+.company{margin-top:5px;font-weight:700;text-transform:uppercase;}
+.item-name{font-family:times;color:gray;font-style:italic;}
+.current-prize{font-size:11px;}
+.price{font-size:11px;text-decoration:line-through;}
+.discount{font-size:11.5px; font-weight:700;color:orange;}
+.bagbtn{cursor:pointer;box-shadow:0px 0px 3px gray;border:0;border-radius:5px;background:limegreen;width:100%;padding:3px 3px;}
+.bagbtn:active{color:gray;box-shadow:none;background:lightgreen;}
+.wacth{font-size:10px;}
+.quality{color:black;}
+footer{display:flex;flex-wrap:wrap;font-family:fantasy;font-style:italic;text-shadow:0.3px 0px 1.4px teal;line-height:2.5em;padding:12px;height:300px;background:rgb(30,50,60);width:100%;}
+.weblink{font-family:monospace; color:lightblue;}
+.weblink:hover{color:violet;}
+.by{position:relative; left:56px;top:75px;}
+.showing-product{display:flex;overflow:scroll;height:170px;width:100%;}
+.showproduct-img{position:relative;animation:scroll 18s linear 2s;margin-left:5px;}
+@keyframes scroll{
+0%{left:0;}
+20%{left:-200px;}
+20%{left:-200px;}
+40%{left:-600px;}
+45%{left:-900px;}
+50%{left:-1200px;}
+60%{left:-800px;}
+70%{left:-400px;}
+80%{left:-200px;}
+90%{left:-100px;}
+100%{left:0px;}
+}
+</style>
